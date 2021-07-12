@@ -1,12 +1,12 @@
 *******Databases*********
-global finaldatabase "C:\Users\zurit\Dropbox\MTEAgricola\Submissions_MTEAgricola\JAAE\Final_Version_JAAE\4github\GithubTorresDavalosMorales2021"
+global finaldatabase "~\Dropbox\MTEAgricola\Estimaciones"
 global results "~\Dropbox\MTEAgricola\Submissions_MTEAgricola\JAAE\R&R_submission2\Resultados"
 
 cd "$finaldatabase"
 
 set more off
 
-use "Base_regresion_V2",clear
+use "Base_estimaciones_Final_JAAE",clear
 
 gen log_rend=log_p1-log_areasem1
 
